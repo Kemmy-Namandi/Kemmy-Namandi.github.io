@@ -7,46 +7,63 @@
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-  <header>
-    <img id="logo" src="assets/images/logo.jpg" alt="Logo">
-  </header>
-  <nav>
-    <a href="#home" title="home">HOME</a>
-    <a href="#about" title="about">ABOUT</a>
-    <a href="#skills" title="skills">SKILLS</a>
-    <a href="#contact" title="contact">CONTACT</a>
-  </nav>
-  <main>
-    <div id="about">
-      <div id="leftAbout">
-    <h1>About Me</h1>
-    <img id="biopic" src="assets/images/biopic.jpg" alt="My Photo">
-  </div>
-  <div id="rightAbout">
-    <h1>About Kemmy-Namandi</h1>
-    <p>Hello! I'm Kemmy-Namandi, a passionate web designer and developer with a love for creating beautiful and functional websites. With a background in both design and development, I strive to build responsive, user-friendly websites that provide an exceptional user experience.I am a web designer and developer passionate about building responsive,
+
+<header>
+  <img id="logo" src="assets/images/logo.jpg" alt="Logo">
+</header>
+
+<nav>
+  <a href="#home">HOME</a>
+  <a href="#about">ABOUT</a>
+  <a href="#skills">SKILLS</a>
+  <a href="#contact">CONTACT</a>
+</nav>
+
+<main>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div id="leftAbout">
+      <img id="bioPic" src="assets/images/biopic.jpg" alt="My Photo">
+    </div>
+
+    <div id="rightAbout">
+      <h1>About Me</h1>
+      <p>
+        Hello! I'm Kemmy-Namandi, I am a web designer and developer passionate about building responsive,
 user-friendly websites and AI-powered applications. I enjoy creating clean
 designs that improve user experience and solve real-world problems.
-</p>
-<div id="skills">
+
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
     <h2>Skills</h2>
     <ul>
       <li>HTML</li>
       <li>CSS</li>
       <li>JavaScript</li>
     </ul>
+  </section>
 
-<section class="container">
-  <h2>Contact Me</h2>
-  <form class="contact-form">
-    <input type="text" placeholder="Enter name" required>
-    <input type="email" placeholder="Enter email" required>
-    <textarea placeholder="Your message here..." required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</section>
+  <!-- CONTACT -->
+  <section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Enter name" required>
+      <input type="email" placeholder="Enter email" required>
+      <textarea placeholder="Your message here..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-<!-- FOOTER -->
+</main>
+
 <footer>
   <p>© 2026 Kemmy-Namandi, all rights reserved.</p>
 </footer>
+
+</body>
+</html>
